@@ -3,5 +3,7 @@
     "paths": {
       "@/*": ["./src/*"]
     }
-  }
+  },
+  "include": ["**/*.js", "**/*.jsx", "src"],
+  "exclude": ["node_modules"]
 }
