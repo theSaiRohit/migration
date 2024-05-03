@@ -18,7 +18,7 @@ const StickyData = ({ images, headings, links }) => {
           }}
           style={{ textDecoration: "none", cursor: "pointer", borderBottom: "1px solid #ccc" }}
         >
-          <img src={images[index]} alt={headings[index]} />
+          <Image src={images[index]} alt={headings[index]} height="100" width="100" sizes="100%" />
           <span style={{ marginLeft: "10px", color: "black" }}>{headings[index]}</span>
         </div>
       ))}

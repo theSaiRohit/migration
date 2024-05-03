@@ -1,6 +1,7 @@
 import React from "react";
 import imageMain from "../assets/images/photography.png";
 import Banner from "../components/page3/Banner";
+import Image from "next/image";
 
 const Page3 = () => {
   return (

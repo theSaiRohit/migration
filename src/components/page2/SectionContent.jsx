@@ -1,6 +1,7 @@
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
-const SectionContent = ({ heading, title, imageSrc, sectionText, textDisplay=true}) => {
+const SectionContent = ({ heading, title, imageSrc, sectionText, textDisplay = true }) => {
   return (
     <div className="sectionContent">
       <div className="sectionHeader">
@@ -15,12 +16,12 @@ const SectionContent = ({ heading, title, imageSrc, sectionText, textDisplay=tru
             </div>
           </div>
         </div>
-        </div>
+      </div>
       <div className="sectionImg">
-        <img src={imageSrc} alt={imageSrc}/>
+        <Image src={imageSrc} alt={imageSrc} height="100" width="100" sizes="100%" />
       </div>
       <div className="sectionText">
-        <p style={{ lineHeight: '1.5' }} dangerouslySetInnerHTML={{ __html: sectionText }}></p>
+        <p style={{ lineHeight: "1.5" }} dangerouslySetInnerHTML={{ __html: sectionText }}></p>
       </div>
     </div>
   );

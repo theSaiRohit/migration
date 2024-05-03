@@ -49,7 +49,7 @@ const LandingPage = () => {
             </button>
           </div>
           <div className="hyperlink-img">
-            <img src={Card1Image.src} alt="img"></img>
+            <Image src={Card1Image.src} alt="img" height="100" width="100" sizes="100%"></Image>
           </div>
         </div>
       </Container>

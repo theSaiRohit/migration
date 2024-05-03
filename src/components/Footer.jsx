@@ -15,8 +15,8 @@ const Footer = () => {
         <div className="footer-content">
           <div className="info-section">
             <div className="logo">
-              <Link href="/">
-                <img src={logoImage.src} alt="LOGO" className="footer-logo" />
+              <Link href="/" className="img-container">
+                <Image src={logoImage.src} alt="LOGO" className="footer-logo" height="100" width="100" sizes="100%" />
               </Link>
             </div>
             <div className="contact">

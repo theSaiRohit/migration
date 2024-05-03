@@ -15,8 +15,8 @@ const Header = () => {
           <div className="header">
             <div className="header-content">
               <div className="logo">
-                <Link href="/">
-                  <img src={logoImage.src} alt="LOGO" className="header-logo" />
+                <Link href="/" className="img-container">
+                  <Image src={logoImage.src} alt="LOGO" className="header-logo" height="100" width="100" sizes="100%" />
                 </Link>
               </div>
               {!isLessLaptop && (

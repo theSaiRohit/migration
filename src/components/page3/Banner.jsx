@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../assets/images/photography.png";
+import Image from "next/image";
 
 const Banner = () => {
   return (
@@ -21,7 +22,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="imageContent">
-        <img src={image.src}></img>
+        <Image src={image.src} height="100" width="100" sizes="100%"></Image>
       </div>
     </div>
   );
